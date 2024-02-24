@@ -1,0 +1,167 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.upper-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 30px; */
+    height: 10vh;
+    margin-top: 20px;
+    margin-left:70px;
+    margin-right:70px;
+}
+.links{
+    display: flex;
+    /* gap: 40px; */
+}
+.active-link>a{
+    color: black;
+    font-weight: 600;
+}
+.nav-links:hover{
+    background-color: gainsboro;
+    border-radius: 40px;
+    
+}
+.effect-hover:hover{
+        background-color: gainsboro;
+        border-radius: 40px;
+  
+}
+a{
+    text-decoration: none;
+    color: rgb(167, 159, 159);
+}
+.logo{
+    display: flex;
+    color: #ff385c;
+    align-items: center;
+}
+.logo>div>h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.effect-hover{
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-radius: 60px; */
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.profile-section{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    border: 1px solid grey;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+.profile-section:hover{
+    box-shadow: 1px 2px 2px gray;
+}
+
+/*Sarthak, Foooter*/
+
+#mainbody {
+    /* height: 100vh; */
+}
+
+#SKcopyrightFooter {
+    background-color:#F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 80px;
+}
+
+#SKcopyrightFooter .SKleftSide {
+    display: flex;
+    gap: 10px;
+}
+
+#SKcopyrightFooter .SKrightSide {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.SKsecondLast {
+    background-color: #F7F7F7;
+    display: flex;
+    padding: 40px 80px;
+    justify-content: space-between;
+}
+
+.SKsecondLast .support,
+.SKsecondLast .hosting,
+.SKsecondLast .aribnb {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SKsecondLast .SUPPORT,
+.SKsecondLast .HOSTING,
+.SKsecondLast .AIRBNB {
+    font-weight: 600;
+    color:#181818;
+}
+
+.supportText,
+.hostingText,
+.aribnbText {
+    color: #949494;
+}
+
+
+/*Daksh*/
+.cards {
+    display: grid;
+    padding: 32px;
+    font-family: sans-serif;
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+    gap:33px;
+}
+
+.card .heading {
+    margin-left: 5px;
+    font-size: 1.4rem;
+}
+
+.card .card-distance {
+    color: #949494;
+    margin-left: 5px;
+}
+
+.card .card-money {
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.card .card-date {
+    color: #949494;
+    margin-left: 5px;
+}
+
+.card img {
+    width:280px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card {
+    /* background-color: #ddd1d1; */
+    border-radius: 15px;
+    padding:24px;
+}
